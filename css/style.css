@@ -1,0 +1,169 @@
+/*
+GLOBAL
+*/
+@font-face {
+    font-family: plant;
+    src: url(../assets/starlight\ demo.ttf);
+}
+
+*{
+    font-family: 'Mulish';
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/*header*/
+.navbar .navbar-nav .nav-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #2ecc71;
+    transition: 0.3s;
+}
+.navbar .navbar-nav .nav-link:hover::after{
+    width: 60%;
+    height: 2px;
+    background: #2ecc71;
+    transition: 0.3s;
+    border-bottom: 2px solid #27ae60;
+}   
+.img_header{
+    height: 180px;
+}
+.title{
+    color: #478978;
+    font-size: 40px;
+}
+
+/*
+.logo {
+    height: 100px;
+    border-radius: 20px;
+
+}
+*/
+
+.barra_de_menu{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+}
+
+.menuList{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    padding: 9px;
+    list-style: none;
+    margin: 4px;
+}
+
+.menuList:hover{
+    color: #8B95C9;
+}
+.menu{
+    background-color: bisque;
+}
+ 
+.menuList_sub{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #5f9ea078;
+    list-style: none;
+}
+
+
+.menuList li a {
+    text-decoration: none;
+
+}
+
+.menuList li a:hover{
+    color: coral;
+}
+
+.menuList:hover .menuList_sub{
+    display: block;
+   
+   
+}
+
+
+
+/*Main*/
+.featured .row .one{
+    height: 300px;
+}  
+.featured .row .one img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.featured .row .one .text p{
+    letter-spacing: 10px; 
+}
+main {
+    background-color: #fbfbfb;
+
+}
+.my_plant_title {
+    font-family: 'plant';
+    font-weight: 700px;
+}
+.my_plant_text{
+    font-family: 'plant';
+    font-weight: 200px;
+}
+
+.img_index {
+    height: 500px;
+}
+
+.sub_title {
+    font-family: 'plant';
+    font-size: 25px;
+    background-color: cadetblue;
+    height: 50px;
+}
+.sub_title_my{
+    font-family: 'plant';
+    font-weight: 200px;
+}
+
+.text1 {
+    background-color: #D9CAB3;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.care_myplant_text {
+    font-family: 'plant';
+    font-weight: 200px;
+}
+.img_careplant {
+    height: 500px;
+}
+.my_plant_title {
+    font-family: 'plant';
+    font-weight: 700px;
+}
+
+
+
+
+/*footer*/
+footer {
+    background-color: bisque;
+}
