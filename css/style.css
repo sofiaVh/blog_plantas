@@ -119,10 +119,7 @@ background: linear-gradient(to left, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Fi
 .featured .row .one .text p{
     letter-spacing: 10px; 
 }
-main {
-    background-color: #fbfbfb;
 
-}
 .my_plant_title {
     font-family: 'plant';
     font-weight: 700px;
@@ -166,7 +163,14 @@ main {
     font-weight: 700px;
 }
 
-
+.form  {
+    background: #4667518c;
+    width: 700px;
+    height: 370px;
+    border-radius: 15px;
+    font-size: 20px;
+    
+}
 
 
 /*footer*/
