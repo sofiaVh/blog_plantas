@@ -20,6 +20,21 @@ h3{
 }
 
 /*header*/
+.header__span{
+    font-size: 0.7rem;
+    background-color: #5f9ea078;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 100%;
+    padding: 0.6em;
+}
+.header__span p {
+    color: #040404;
+    margin: 0;
+    font-size: 0.8em;
+    letter-spacing: 10px;
+}
 .navbar .navbar-nav .nav-link::after{
     content: "";
     display: block;
@@ -43,13 +58,6 @@ h3{
     font-size: 40px;
 }
 
-/*
-.logo {
-    height: 100px;
-    border-radius: 20px;
-
-}
-*/
 
 .barra_de_menu{
    
@@ -95,6 +103,13 @@ h3{
     display: block;
    
    
+}
+.header__gallery p{
+    font-size: 20px;
+    background-color: #5f9ea078;
+    text-align: center;
+    width: 100%;
+    padding: 0.6em;
 }
 
 
@@ -172,6 +187,7 @@ background: linear-gradient(to left, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Fi
     font-size: 20px;
     
 }
+
 
 
 /*footer*/

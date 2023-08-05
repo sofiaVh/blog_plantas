@@ -5,51 +5,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>MisPlantas</title>
 </head>
 
 <body>
-    <header>
-        <h1 class="my_plant_title">Mis Plantas</h1>
-        
-        <nav>
-            <ul>
-                <li><a href="./pages/my_plant.html">Galeria de Fotos</a></li>
-                <li><a href="../pages/care_myplant.html">Cuidados</a></li>
-                <li><a href="../index.html">Inicio</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="grid__container">
+        <header class="header_grid">
+            <div class="header__span">
+                <p>Cual es tú planta Favorita??</p>
+            </div>
 
-    <main>
-        <h2 class="sub_title_my">Monstera deliciosa</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/e944qjU3cBs" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <section class="my_plant_text">
-            <p>
-                llamada comúnmente cerimán o costilla de Adán, es una especie de planta trepadora de la familia Araceae,
-                endémica de selvas tropicales, que se distribuye desde el centro y sur de México hasta el norte de
-                Argentina.
-            </p>
-        </section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="../assets/panoramic_butterfly.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../assets/panoramic_cerezo.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../assets/panoramic_flower.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="care_myplant.html">Cuidados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link active" aria-current="page" href="dream.html">Plantas que
+                                    sueño Tener</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="care_dream.html">Cuidados</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="header__gallery mb-5">
+        <p>Mis Plantas</p>
+    </div>
+    <main class="gallery container mt-10">
 
+        <section class="gallery container">
 
-        <h2 class="sub_title_my">Peperomia polybotrya</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BHZbsWraU4E" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <section class="my_plant_text">
-            <p>
-                Es una variedad de las peperomias llamada comúnmente cuchara o cucharita, o planta chica del dinero. Es
-                una planta de interior que puede estar en sombra, pero para un mayor crecimiento debe tener abundante
-                luz natural, protegiéndola siempre del sol directo y del frío.
-            </p>
+            <div class="row">
+                <div class="photo1 col my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/peperomia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo2 col my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/dream_sanse.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="photo3 col my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/monstera.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="photo4 col my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/peperomia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo5 col my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/dream_sanse.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo6 col my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/peperomia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
         </section>
 
     </main>
