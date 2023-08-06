@@ -112,8 +112,11 @@ h3{
     padding: 0.6em;
 }
 
-
-
+.btn_contact a{
+    align-items: end;
+    margin: 30px;
+    
+}
 /*Main*/
 .sidebar{
     background: #649173;  /* fallback for old browsers */
@@ -188,9 +191,12 @@ background: linear-gradient(to left, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Fi
     
 }
 
-
-
 /*footer*/
-footer {
-    background-color: bisque;
+.footer_social{
+    background-color: #5f9ea078;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center; 
 }
