@@ -1,0 +1,13 @@
+//Mixin REUTILIZAR
+
+//@mixin > defino     @include > invoco
+
+@mixin flex-center {
+    display: flex;
+    align-items: center; 
+}
+
+@mixin h-backcolor ($h,$backcolor){
+    height: $h;
+    background-color: $backcolor;
+}

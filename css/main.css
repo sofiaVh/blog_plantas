@@ -6,4 +6,83 @@
   padding: 0;
 }
 
+/*
+Components header
+*/
+.header__span {
+  font-size: 0.7rem;
+  background-color: rgba(95, 158, 160, 0.4705882353);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 100%;
+  padding: 0.6em;
+}
+.header__span p {
+  color: #040404;
+  margin: 0;
+  font-size: 0.8em;
+  letter-spacing: 10px;
+}
+
+.btn__contact a {
+  align-items: end;
+  margin: 30px;
+}
+
+/* Navbar */
+.navbar .navbar-nav .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #2ecc71;
+  transition: 0.3s;
+}
+
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 60%;
+  height: 2px;
+  background-color: #2ecc71;
+  transition: 0.3s;
+  border-bottom: 2px solid #27ae60;
+}
+
+/*Footer*/
+.footer_social {
+  background-color: rgba(95, 158, 160, 0.4705882353);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 5rem;
+}
+
+/* Card */
+.featured .row .one {
+  height: 300px;
+}
+
+.featured .row .one img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.sub__title p {
+  font-size: 18px;
+  background-color: rgba(95, 158, 160, 0.4705882353);
+  text-align: center;
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+.blog__sub {
+  font-size: 25px;
+  color: #03533c;
+  text-decoration: solid;
+}
+
 /*# sourceMappingURL=main.css.map */

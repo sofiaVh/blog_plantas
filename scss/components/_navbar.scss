@@ -1,0 +1,32 @@
+/* Navbar */
+
+.navbar {
+    .navbar-nav {
+        .nav-link {
+            &::after {
+                content: "";
+                display: block;
+                width: 0;
+                @include h-backcolor (2px,$under_line);
+                transition: 0.3s;
+            }
+        }
+    }
+}
+
+
+.navbar {
+    .navbar-nav {
+        .nav-link {
+            &:hover {
+                &::after {
+                    width: 60%;
+                    @include h-backcolor (2px,$under_line);
+                    transition: 0.3s;
+                    border-bottom: 2px solid #27ae60;
+                }
+            }
+        }
+    }
+}
+

@@ -20,6 +20,7 @@ h3{
 }
 
 /*header*/
+/*scss*/
 .header__span{
     font-size: 0.7rem;
     background-color: #5f9ea078;
@@ -35,6 +36,7 @@ h3{
     font-size: 0.8em;
     letter-spacing: 10px;
 }
+/*scss*/
 .navbar .navbar-nav .nav-link::after{
     content: "";
     display: block;
@@ -49,79 +51,21 @@ h3{
     background: #2ecc71;
     transition: 0.3s;
     border-bottom: 2px solid #27ae60;
-}   
-.img_header{
-    height: 180px;
-}
-.title{
-    color: #478978;
-    font-size: 40px;
-}
-
-
-.barra_de_menu{
-   
-    justify-content: space-evenly;
-    height: 70px;
-    margin-top: 20px;
-}
-
-.menuList{
-    display: flex;
-    justify-content: space-evenly;
-    width: 500px;
-    padding: 9px;
-    list-style: none;
-    margin: 4px;
-}
-
-.menuList:hover{
-    color: #8B95C9;
-}
-.menu{
-    background-color: bisque;
-}
- 
-.menuList_sub{
-    position: absolute;
-    border-radius: 10px;
-    background-color: #5f9ea078;
-    list-style: none;
-}
-
-
-.menuList li a {
-    text-decoration: none;
-
-}
-
-.menuList li a:hover{
-    color: coral;
-}
-
-.menuList:hover .menuList_sub{
-    display: block;
-   
-   
-}
-.header__gallery p{
-    font-size: 20px;
-    background-color: #5f9ea078;
-    text-align: center;
-    width: 100%;
-    padding: 0.6em;
-}
-
-.btn_contact a{
+}  
+/*scss*/ 
+.btn__contact a{
     align-items: end;
-    margin: 30px;
-    
+    margin: 30px;   
 }
+/*scss*/
+
+
+
 /*Main*/
 .sidebar{
-    background: #649173;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #649173; 
+background: -webkit-linear-gradient(to left, #DBD5A4, #649173); 
+background: linear-gradient(to left, #DBD5A4, #649173); 
 
 }
 .featured .row .one{
@@ -139,47 +83,18 @@ background: linear-gradient(to left, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Fi
     letter-spacing: 10px; 
 }
 
-.my_plant_title {
-    font-family: 'plant';
-    font-weight: 700px;
+.sub__title p{
+    font-size: 18px;
+    background-color: #5f9ea078;
+    text-align: center;
+    letter-spacing: 3px;
+    width: 100%;
 }
-.my_plant_text{
-    font-family: 'plant';
-    font-weight: 200px;
-}
-
-.img_index {
-    height: 500px;
-}
-
-.sub_title {
-    font-family: 'plant';
+.blog__sub{
     font-size: 25px;
-    background-color: cadetblue;
-    height: 50px;
-}
-.sub_title_my{
-    font-family: 'plant';
-    font-weight: 200px;
-}
-
-.text1 {
-    background-color: #D9CAB3;
-    width: 400px;
-    height: 200px;
-    border-radius: 15px;
-
-}
-.care_myplant_text {
-    font-family: 'plant';
-    font-weight: 200px;
-}
-.img_careplant {
-    height: 500px;
-}
-.my_plant_title {
-    font-family: 'plant';
-    font-weight: 700px;
+    color: #03533c;
+    text-decoration: solid;
+    
 }
 
 .form  {
@@ -196,7 +111,7 @@ background: linear-gradient(to left, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Fi
     background-color: #5f9ea078;
     color: #ffffff;
     display: flex;
+    align-items: center; 
     justify-content: space-around;
     height: 5rem;
-    align-items: center; 
 }
